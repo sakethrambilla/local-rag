@@ -1,0 +1,48 @@
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# Node
+node_modules/
+.next/
+/frontend/.next/
+/frontend/out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keys & certs
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Test data
+test_pdfs/
+
+# LocalRAG runtime data
+~/.localrag/
+*.db-shm
+*.db-wal
+
+# IDE
+.vscode/
+.idea/
